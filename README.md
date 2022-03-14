@@ -1,2 +1,0 @@
-# Algebra
-Algebra calculator
