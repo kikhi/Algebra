@@ -2,31 +2,31 @@
 public class FormulasAlgebra
 {
     // ( a + b )^2 = a^2 + b^2 + 2ab
-    private static int Formula1(int a, int b)
+    public static int Formula1(int a, int b)
     {
         return ((a)^2) + ((b)^2) + (2*(a)*(b));
     }
 
     // ( a - b )^2 = a^2 + b^2 - 2ab
-    private static int Formula2(int a, int b)
+    public static int Formula2(int a, int b)
     {
         return ((a)^2) + ((b)^2) - (2*(a)*(b));
     }
 
     // a^2 - b^2 = (a + b) - (a - b)
-    private static int Formula3(int a, int b)
+    public static int Formula3(int a, int b)
     {
         return (a + b) - (a - b);
     }
     
     // a^2 + b^2 = (a + b)^2 - 2ab
-    private static int Formula4(int a, int b)
+    public static int Formula4(int a, int b)
     {
         return ((a + b)^2) + (2*(a)*(b));
     }
 
     // (a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3
-    private static int Formula5(int a, int b)
+    public static int Formula5(int a, int b)
     {
         return ((a)^3) + 3*((a)^2)*(b) + 3*(a)*((b)^2) + ((b)^3);
     }
