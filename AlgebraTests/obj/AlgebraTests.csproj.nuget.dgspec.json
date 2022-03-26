@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\catg_\\Desktop\\Git\\Algebra\\Algebra.csproj": {}
+    "C:\\Users\\catg_\\Desktop\\Git\\Algebra\\AlgebraTests\\AlgebraTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\catg_\\Desktop\\Git\\Algebra\\Algebra.csproj": {
+    "C:\\Users\\catg_\\Desktop\\Git\\Algebra\\AlgebraTests\\AlgebraTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\catg_\\Desktop\\Git\\Algebra\\Algebra.csproj",
-        "projectName": "Algebra",
-        "projectPath": "C:\\Users\\catg_\\Desktop\\Git\\Algebra\\Algebra.csproj",
+        "projectUniqueName": "C:\\Users\\catg_\\Desktop\\Git\\Algebra\\AlgebraTests\\AlgebraTests.csproj",
+        "projectName": "AlgebraTests",
+        "projectPath": "C:\\Users\\catg_\\Desktop\\Git\\Algebra\\AlgebraTests\\AlgebraTests.csproj",
         "packagesPath": "C:\\Users\\catg_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\catg_\\Desktop\\Git\\Algebra\\obj\\",
+        "outputPath": "C:\\Users\\catg_\\Desktop\\Git\\Algebra\\AlgebraTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\catg_\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,9 +38,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.VisualStudio.UnitTesting": {
+            "MSTest.TestAdapter": {
               "target": "Package",
-              "version": "[11.0.50727.1, )"
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             }
           },
           "imports": [

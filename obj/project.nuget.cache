@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "keFz8C3/RHa8G6cuucI+RPw2lfksCuNuhNCFruZW7dWy3+SqK3+cnQvpQpzzLqiIeRapkQTdrlmkARrkoAwnkg==",
+  "dgSpecHash": "axfUdULkC+VIy1PxevPI2OOmhSA14VsahexeiPqOhzLLvSQsrSnTG34mssuxptnbjzJkWdT0Tu/p+bXvQrmnGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\catg_\\Desktop\\Git\\Algebra\\Algebra.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\catg_\\.nuget\\packages\\microsoft.visualstudio.unittesting\\11.0.50727.1\\microsoft.visualstudio.unittesting.11.0.50727.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.VisualStudio.UnitTesting 11.0.50727.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.VisualStudio.UnitTesting",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

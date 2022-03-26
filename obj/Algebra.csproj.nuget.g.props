@@ -12,4 +12,7 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\catg_\.nuget\packages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_VisualStudio_UnitTesting Condition=" '$(PkgMicrosoft_VisualStudio_UnitTesting)' == '' ">C:\Users\catg_\.nuget\packages\microsoft.visualstudio.unittesting\11.0.50727.1</PkgMicrosoft_VisualStudio_UnitTesting>
+  </PropertyGroup>
 </Project>
