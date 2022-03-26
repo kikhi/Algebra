@@ -52,7 +52,7 @@ _If the second time testing there are problems, put the follow instruction on fi
 <GenerateAssemblyInfo> false </GenerateAssemblyInfo>
 ```
 
-## Despliegue 📦
+## Deploy 📦
 
 _For deployment need only build the project_
 
