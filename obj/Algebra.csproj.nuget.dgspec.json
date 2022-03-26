@@ -41,6 +41,10 @@
             "Microsoft.VisualStudio.UnitTesting": {
               "target": "Package",
               "version": "[11.0.50727.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             }
           },
           "imports": [
