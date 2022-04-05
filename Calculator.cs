@@ -2,33 +2,33 @@
 
 public class Arithmetic
 {
-    public static int Add(int a, int b)
+    public static double Add(int a, int b)
     {
         return a + b;
     }
 
-    public static int Sub(int a, int b)
+    public static double Sub(int a, int b)
     {
         return a - b;
     }
 
-    public static int Multiplication(int a, int b)
+    public static double Multiplication(int a, int b)
     {
         return a * b;
     }
 
-    public static int Div(int a, int b)
+    public static double Div(int a, int b)
     {
         return a / b;
     }
 
-    public static int Modulus(int a, int b)
+    public static double Modulus(int a, int b)
     {
         return a % b;
     }
 }
 
-public class Aljebra
+public class Algebra
 {
     // ( a + b )^2 = a^2 + b^2 + 2ab
     public static double Formula1(int a, int b)

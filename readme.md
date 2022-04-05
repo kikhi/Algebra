@@ -32,6 +32,8 @@ _This file contain a dll files that you can put on your project to make the refe
 
 ### Unit Testing ⌨️
 
+_Find the testing project here_ [Calculator Testing](https://github.com/kikhi/CalculatorTest)
+
 _xUnit used for this project_
 ```
 dotnet new xunit -o AlgebraTests
