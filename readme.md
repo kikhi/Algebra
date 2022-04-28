@@ -1,4 +1,4 @@
-# Algebra Formulas
+# Calculator
 
 _Library of important formulas from algebra, cross plataform_
 
